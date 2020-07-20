@@ -118,5 +118,6 @@
 }
 
 .region_border li{
+    width: 100%;
     border-bottom: 2px solid white;
 }
