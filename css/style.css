@@ -35,6 +35,24 @@ nav {
     width: 100%;
 }
 
-.jumbo_margin {
-    margin: 30px 0px;
+.jumbotron {
+    background-color: #0138d7;
+    margin-bottom: 0px;
+}
+
+/* MAIN */
+
+/* partner section */
+
+.partner {
+    background-color: #f3f5f9;
+}
+
+.partner_row {
+    line-height: 150px;
+}
+
+.partner_row img {
+    display: inline;
+    vertical-align: middle;    
 }
