@@ -1,5 +1,9 @@
 /* MIX */
 
+.txt_white {
+    color: white;
+}
+
 /* header style */
 
 nav {
@@ -13,4 +17,24 @@ nav {
 
 .list_menu li{
     display: inline-block;
+}
+
+.form_style {
+    background-color: white;
+    padding: 30px;
+}
+
+.SigUp_button {
+    background-color: #579aff;
+    width: 100%;
+    margin: 15px 0px;
+    line-height: 30px;
+}
+
+.google_button {
+    width: 100%;
+}
+
+.jumbo_margin {
+    margin: 30px 0px;
 }
