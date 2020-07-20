@@ -4,6 +4,12 @@
     color: white;
 }
 
+.wrapper_small {
+    width: 80%;
+    margin: auto;
+    height: 100px;
+}
+
 /* header style */
 
 nav {
@@ -55,4 +61,17 @@ nav {
 .partner_row img {
     display: inline;
     vertical-align: middle;    
+}
+
+/* technology section */
+
+.navigation_menu {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navigation_menu li {
+    line-height: 40px;
+    border-left: 3px solid #cccccc;
+    padding-left: 15px;
 }
