@@ -75,3 +75,9 @@ nav {
     border-left: 3px solid #cccccc;
     padding-left: 15px;
 }
+
+/* carosel section */
+
+.carosel {
+    background-color: #f3f5f9;
+}
