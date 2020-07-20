@@ -99,3 +99,24 @@
 .insertion {
     padding: 50px 0px
 }
+
+/* region section style */
+
+.region {
+    background-color: #0048c6;
+    padding: 50px 0px;
+}
+
+.region * {
+    color: white;
+}
+
+.list_menu li p {
+    display: inline;
+    padding-left: 30px;
+    line-height: 40px;
+}
+
+.region_border li{
+    border-bottom: 2px solid white;
+}
