@@ -12,8 +12,14 @@
 
 /* header style */
 
-nav {
-    line-height: 70px;
+.header_top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100px;
+    line-height: 100px;
     background-color: grey;
 }
 
@@ -44,6 +50,7 @@ nav {
 .jumbotron {
     background-color: #0138d7;
     margin-bottom: 0px;
+    margin-top: 100px;
 }
 
 /* MAIN */
@@ -85,4 +92,10 @@ nav {
 .carosel {
     padding: 50px 0px;
     background-color: #f3f5f9;
+}
+
+/* core features section */
+
+.insertion {
+    padding: 50px 0px
 }
