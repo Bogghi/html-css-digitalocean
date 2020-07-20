@@ -1,0 +1,16 @@
+/* MIX */
+
+/* header style */
+
+nav {
+    line-height: 70px;
+    background-color: grey;
+}
+
+.list_menu {
+    list-style: none;
+}
+
+.list_menu li{
+    display: inline-block;
+}
