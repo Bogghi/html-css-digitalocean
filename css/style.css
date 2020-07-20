@@ -65,6 +65,10 @@ nav {
 
 /* technology section */
 
+.technology {
+    padding: 50px 0px;
+}
+
 .navigation_menu {
     list-style: none;
     padding-left: 0px;
@@ -79,5 +83,6 @@ nav {
 /* carosel section */
 
 .carosel {
+    padding: 50px 0px;
     background-color: #f3f5f9;
 }
