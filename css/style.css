@@ -51,7 +51,7 @@
 .header_top img {
     display: inline;
     vertical-align: middle;
-    width: 75%;
+    max-height: 30px;
 }
 
 .list_menu {
