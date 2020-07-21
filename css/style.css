@@ -121,3 +121,23 @@
     width: 100%;
     border-bottom: 2px solid white;
 }
+
+/* start section */
+
+.start {
+    background-color: #0138d7;
+    padding: 50px 0px;
+}
+
+.start h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.white_btn {
+    color: #0138d7;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+}
+
