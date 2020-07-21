@@ -293,6 +293,14 @@ li.zero_margin {
     border-bottom: 2px solid white;
 }
 
+.region_speed {
+    color: #00ced0;
+}
+
+.region_speed i {
+    color: #00ced0;
+}
+
 /* start section */
 
 .start {
