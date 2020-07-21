@@ -6,9 +6,10 @@
     <title>Digital-Ocean</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="debug">
     <!-- header  -->
     <header>
         <!-- navbar -->
@@ -17,22 +18,31 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3">
-                            <img src="img/digitalOcean_logo.png" alt="">
+                            <img src="img/digitalOcean_logo.png" alt="" class="img-responsive">
                         </div>
-                        <div class="col-lg-4 col-lg-offset-1">
+                        <div class="col-lg-5">
                             <ul class="list_menu">
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
+                                <li>
+                                    Product
+                                    <i class="fas fa-angle-down"></i>
+                                </li>
+                                <li>Customer</li>
+                                <li>
+                                    Community
+                                    <i class="fas fa-angle-down"></i>
+                                </li>
+                                <li>Pricing</li>
                             </ul>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 text-right">
                             <ul class="list_menu">
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li><a href="#">SigUp</a></li>
+                                <li>Docs</li>
+                                <li>
+                                    Supports
+                                    <i class="fas fa-angle-down"></i>
+                                </li>
+                                <li>Login</li>
+                                <li><a href="#" class="btn btn-default sigup_style">SigUp</a></li>
                             </ul>
                         </div>
                     </div>
@@ -46,10 +56,13 @@
                 <div class="row">
                     <div class="col-md-8 col-xs-12">
                         <h1>The simplest cloud <br>platfor for <br>developers &amp; teams</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni debitis illum perferendis accusantium asperiores praesentium quis at in placeat architecto, quos fugit. Accusamus eaque fugiat temporibus ipsam. Blanditiis, minus eos.</p>
+                        <p class="jumbo_text">Deploy, manage, and scale cloud applications faster and more efficiently of DigitalOcean. We make managing infrastructure easy for teams and business, whether you're running one virtual machine or ten thousand.</p>
                     </div>
-                    <div class="col-md-4 col-xs-12 form_style">
-                        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur aliquid vitae perspiciatis non explicabo ut ab dolor</h2>
+                    <div class="col-md-4 col-xs-11 form_style">
+                        <h2 class="text-center">
+                            Deploy your app in seconds. <br>
+                            <a href="">Get started now.</a>
+                        </h2>
                         <form>
                             <div class="form-group">
                                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
@@ -58,8 +71,12 @@
                                 <input type="password" class="form-control" placeholder="Password">
                             </div>
                             <button type="submit" class="SigUp_button txt_white">Create your account</button>
-                            <button type="submit" class="google_button">Sign up with google</button>
+                            <button type="submit" class="google_button  relative">
+                                <img src="img/google.png" alt="" class="logo_position">
+                                Sign up with google
+                            </button>
                         </form>
+                        <p class="text-center trm_of_srv">By signing up you agree to the <a href="#">Terms of Services</a></p>
                     </div>
                 </div>
             </div>

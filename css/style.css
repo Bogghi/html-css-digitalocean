@@ -1,4 +1,25 @@
+/* debug section */
+
+.debug .green {
+    background-color: green;
+    border: 1px black solid;
+}
+
+.debug .red {
+    background-color: red;
+    border: 1px black solid;
+}
+
+.sigup_style {
+    border: 1px solid #0138d7;
+    color: #0138d7;
+}
+
 /* MIX */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
 
 .txt_white {
     color: white;
@@ -10,6 +31,10 @@
     height: 100px;
 }
 
+.relative {
+    position: relative;
+}
+
 /* header style */
 
 .header_top {
@@ -18,9 +43,15 @@
     top: 0;
     left: 0;
     z-index: 1;
-    height: 100px;
-    line-height: 100px;
-    background-color: grey;
+    height: 65px;
+    line-height: 65px;
+    background-color: white;
+}
+
+.header_top img {
+    display: inline;
+    vertical-align: middle;
+    width: 75%;
 }
 
 .list_menu {
@@ -29,28 +60,95 @@
 
 .list_menu li{
     display: inline-block;
+    font-weight: bold;
+    margin-right: 20px;
 }
 
 .form_style {
     background-color: white;
-    padding: 30px;
+    padding: 30px 20px 10px 20px;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 768px) {
+    .form_style {
+        margin: 20px;
+    }
 }
 
 .SigUp_button {
     background-color: #579aff;
     width: 100%;
-    margin: 15px 0px;
+    margin: 13px 0px;
     line-height: 30px;
+    border: 1px #579aff solid;
+    border-radius: 4px;
+    font-weight: bold;
 }
 
 .google_button {
     width: 100%;
+    border: 0px;
+    border-radius: 4px;
+    line-height: 30px;
+    box-shadow: 1px 1px 2px #848484;
+    background-color: white;
+    font-weight: bold;
+    color: #848484;
+}
+
+.google_button img{
+    height: 20px;    
 }
 
 .jumbotron {
-    background-color: #0138d7;
+    background-image: url(../img/jumbotron_bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 0px;
-    margin-top: 100px;
+    margin-top: 65px;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+}
+
+p.jumbo_text {
+    color: #bbcdff;
+    font-weight: bold;
+    padding-right: 40px;
+}
+
+.jumbotron h2 {
+    margin-top: 0px;
+}
+
+p.trm_of_srv {
+    color: #848484;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-right: 0px;
+}
+
+input::placeholder {
+    color: #848484;
+    font-weight: bold;
+}
+
+input {
+    border: 1p #848484 solid;
+}
+
+input.form-control:focus {
+    box-shadow: 0px 0px;
+}
+
+.logo_position {
+    position: absolute;
+    left: 2%;
+    top: 13%;
 }
 
 /* MAIN */
