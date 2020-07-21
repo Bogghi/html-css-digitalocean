@@ -201,6 +201,15 @@ input.form-control:focus {
     padding-left: 15px;
 }
 
+.tech_insertion {
+    color: #5c6a88;
+    font-size: 18px;
+}
+
+.technology_feature {
+    height: 180px;
+}
+
 /* carosel section */
 
 .carosel {
