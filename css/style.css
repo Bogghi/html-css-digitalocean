@@ -362,3 +362,52 @@ li.zero_margin {
     font-weight: bold;
 }
 
+/* FOOTER */
+
+footer {
+    background-color: #031c4e;
+    padding: 40px 0px;
+}
+
+footer * {
+    color: #8b94a9;
+    font-size: 17px;
+}
+
+.foo_logo {
+    color: #0042bb;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.light_gray {
+    color: #7a859d;
+}
+
+.social_menu {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.social_menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social_menu li i {
+    font-size: 23px;
+}
+
+.white {
+    color: white;
+    font-weight: bold;
+}
+
+.footer_list {
+    height: 300px;
+}
